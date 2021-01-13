@@ -1,0 +1,36 @@
+#parent-container {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: teal;
+    margin: 0;
+    padding: 0;
+}
+
+#math-input {
+    padding: 5px;
+    font-size: 18px;
+}
+
+input {
+    border: none;
+    height: 25px;
+}
+
+button {
+    border-radius: 8px;
+    height: 25px;
+    border: none;
+}
+
+.button-change:hover {
+    background-color: darkorange;
+    color: white;
+}
